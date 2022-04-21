@@ -1,0 +1,7 @@
+	No	0.0.0.0/0	TCP	All	22		TCP traffic for ports: 22 SSH Remote Login Protocol		
+	No	0.0.0.0/0	TCP	All	80		TCP traffic for ports: 80		
+	No	0.0.0.0/0	TCP	All	443		TCP traffic for ports: 443 HTTPS		
+	No	0.0.0.0/0	TCP	All	25		TCP traffic for ports: 25 Simple Mail Transfer Protocol (SMTP)	allow-smtp	
+	No	0.0.0.0/0	TCP	All	587		TCP traffic for ports: 587	docker-mail-server	
+	No	0.0.0.0/0	TCP	All	465		TCP traffic for ports: 465	docker-mail-server	
+	No	0.0.0.0/0	TCP	All	995		TCP traffic for ports: 995	docker-mail-server-pop3s
